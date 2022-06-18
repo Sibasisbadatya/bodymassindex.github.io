@@ -1,0 +1,238 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #2c2c54;
+}
+
+.topic {
+    font-size: 10rem;
+    color: #7ed6df;
+    text-shadow: 2px 2px 4px black;
+    font-family: 'Teko', sans-serif;
+}
+.interface{
+    transform: translate(50%,30%);
+}
+li {
+    list-style: none;
+}
+
+li {
+    height: 100%;
+    width: 100%;
+
+}
+
+li label {
+    font-size: 2rem;
+}
+
+#user {
+    display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    padding: 10px;
+    width:70% ;
+    transform: translate(25%,40%);
+    grid-template-rows: 10vh 10vh 10vh 10vh;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    left: 50%;
+    top: 50%;
+    box-shadow: 2px 2px 10px black,-2px -2px 10px black;
+background-color: #686de0;
+}
+
+
+
+#points {
+    grid-column: 2/3;
+    grid-row: 1/5;
+    font-size: 3rem;
+    align-self: flex-start;
+    color: yellow;
+    text-shadow: 1px 1px 3px black;
+    font-family: 'Teko', sans-serif;
+    padding: 5px;
+}
+
+b {
+    font-size: 5rem;
+    color: red;
+    text-shadow: 2px 1px 3px black;
+    font-family: 'Teko', sans-serif;
+}
+
+hr {
+    color: blue;
+}
+
+
+#tryanother {
+    height: 100%;
+    width: 100%;
+    background-color: #33d9b2;
+    box-shadow: 1px 1px 10px black,-1px -1px 10px #95afc0 ;
+
+}
+
+#calculate {
+    height: 100%;
+    width: 100%;
+    background-color: #ff5252;
+    box-shadow: 1px 1px 10px black,-1px -1px 10px #95afc0 ;
+
+}
+#label1{
+    color: cyan;
+    text-shadow: 2px 1px 3px black;
+    justify-content: center;
+}
+#label2{
+    color: cyan;
+    text-shadow: 2px 1px 3px black;
+    justify-content: center;
+}
+
+@media only screen and(max-width:1020px)
+{
+ #points{
+        font-size: 4rem;
+    }
+}
+ @media only screen and(max-width:920px)
+{
+ #points{
+        font-size: 3rem;
+    }
+  #points b{
+        font-size: 4rem;
+    }
+} 
+@media only screen and (max-width:900px)
+{
+ #points{
+        font-size: 2.5rem;
+    }
+ #points  b{
+        font-size: 4rem;
+    }
+}
+@media only screen and (max-width:760px)
+{
+ #points{
+        font-size: 2rem;
+    }
+ #points  b{
+        font-size: 3rem;
+    }
+    li label {
+        font-size: 1.5rem;
+    }
+    #user {
+        display: grid;
+        row-gap: 10px;
+        column-gap: 10px;
+        padding: 10px;
+        width:70% ;
+        transform: translate(20%,30%);
+        grid-template-rows: 7vh 7vh 7vh 7vh;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        left: 50%;
+        top: 50%;
+        box-shadow: 2px 2px 10px black,-2px -2px 10px black;
+    background-color: #686de0;
+    }
+    
+.topic {
+    font-size: 8rem;
+    color: #7ed6df;
+    text-shadow: 2px 2px 4px black;
+    font-family: 'Teko', sans-serif;
+}
+}
+
+
+@media only screen and (max-width:620px)
+{
+ #points{
+        font-size: 1.7rem;
+    }
+ #points  b{
+        font-size: 3rem;
+    }
+    li label {
+        font-size: 1.5rem;
+    }
+    #user {
+        display: grid;
+        row-gap: 10px;
+        column-gap: 10px;
+        padding: 10px;
+        width:70% ;
+        transform: translate(20%,27%);
+        grid-template-rows: 6vh 6vh 6vh 6vh;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        left: 50%;
+        top: 50%;
+        box-shadow: 2px 2px 10px black,-2px -2px 10px black;
+    background-color: #686de0;
+    }
+    
+.topic {
+    font-size: 6rem;
+    color: #7ed6df;
+    text-shadow: 2px 2px 4px black;
+    font-family: 'Teko', sans-serif;
+}
+}
+
+@media only screen and (max-width:540px)
+{
+ #points{
+        font-size: 2rem;
+    }
+ #points  b{
+        font-size: 3rem;
+    }
+    li label {
+        font-size: 1.5rem;
+    }
+    #user {
+       display: flex;
+       flex-direction: column;
+        row-gap: 10px;
+        column-gap: 10px;
+        padding: 10px;
+        width:70% ;
+        transform: translate(20%,20%);
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        left: 50%;
+        top: 50%;
+        box-shadow: 2px 2px 10px black,-2px -2px 10px black;
+    background-color: #686de0;
+    }
+    
+.topic {
+    font-size: 6rem;
+    color: #7ed6df;
+    text-shadow: 2px 2px 4px black;
+    font-family: 'Teko', sans-serif;
+}
+}

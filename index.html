@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bmi.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Bebas+Neue&family=Caveat&family=Cookie&family=Dancing+Script&family=Josefin+Sans&family=Kdam+Thmor+Pro&family=Lobster+Two&family=Racing+Sans+One&family=Style+Script&family=Teko:wght@300&family=Water+Brush&display=swap" rel="stylesheet">
+    <title>Body mass index</title>
+</head>
+
+<body>
+    <div class="topic" align="center">
+        BODY MASS INDEX
+    </div>
+    
+        <ul id="user">
+
+            <li>
+                <label for="height" id="label1">Enter Height(meter):</label><br><br>
+                <input type="Number" id="height">
+            </li>
+            <li>
+                <label for="Weight" id="label2">Enter Weight(Kg):</label><br><br>
+                <input type="Number" id="weight">
+            </li>
+            <li>
+
+                <input type="button" value="calculate" id="calculate" onclick="result()">
+            </li>
+            <li id="points">
+                <b>NOTE :</b><br>
+                <hr><br>
+                * If BMI< 18.6 : You are Underweight.<br>
+                    * If 18.6 < BMI < 24.9 : You are Normal.<br>
+                        * If BMI > 24.9 : You are overweighted.<br>
+            </li>
+            <li>
+
+                <input type="button" value="Try Another" id="tryanother" onclick="refresh()">
+            </li>
+        </ul>
+  
+    <script src="bmi.js"></script>
+</body>
+
+</html>
